@@ -1,0 +1,743 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@1,9..144&family=M+PLUS+1p:wght@100&family=Rubik:wght@300&display=swap');
+
+* {
+  font-family: 'Fraunces', serif;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.container {
+  display: flex;
+  background-color: rgb(10, 119, 228);
+  justify-content:space-around;
+  height: 100px;
+  align-items: center;
+}
+
+/* here is the cod where i hide my icon not to show on desktop except mobile */
+
+.span1 {
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+/* here is my ul style */
+
+.nav ul li {
+  display: inline-block;
+}
+
+
+/* to add coor so it can effect the ancore  */
+
+.nav ul li a {
+  color: white;
+  padding: 0 8px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+
+
+
+
+/* here is my menu bar */
+.menu-bar1 {
+  float: right;
+  line-height: 70px;
+  display: none;
+}
+
+/* here is my new */
+
+span.new{
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* my logo here */
+
+.logo img {
+  width: 100px;
+}
+
+
+/* my login and get started  */
+
+.btn {
+  color: white;
+  font-size: 16px;
+  padding: 0 10px;
+
+}
+
+/* login btn */
+.btn-login {
+  border: 2px white solid;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: black;
+  border: 2px red solid;
+}
+
+.btn-signup {
+  background-color: rgb(33, 144, 255);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* all the header menu stile ends here */
+
+.section { 
+background-color: #2c3e50;
+padding: 40px;
+color: white;
+}
+
+.tittle{
+  /* color: red; */
+ max-width: 60%;
+ margin: 0 auto;
+}
+
+.tittle h1 {
+  font-size: 50px;
+}
+
+.tittle p {
+  font-size: 50px;
+  color: yellow;
+  padding-top: 20px;
+}
+
+.btn-file {
+  text-align: center;
+
+}
+
+.btn-find {
+  background-color: #2563eb;
+  padding: 20px 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.img {
+  width: 50%;
+  margin: auto;
+}
+
+.img img {
+  width: 100%;
+  padding-top: 70px;
+  
+}
+
+.fa-arrow-right:hover {
+  transform: scale(1.2);
+}
+
+
+.fa-arrow-right{
+  padding:5px ;
+}
+
+.service-main {
+  display: flex;
+}
+
+.service {
+  width: 90%;
+  margin: auto;
+}
+
+/* .service-one {
+  padding: 40px;
+} */
+
+/* .service-two {
+  padding: 40px;
+} */
+
+/* .service-three{
+  padding: 40px;
+}
+.service-four {
+  padding: 40px;
+} */
+
+/* or cfeate a genral class and add you padding for all at one place */
+/* 
+i created uche as a class or unique id for my div 1 t0 four  */
+.uche {
+padding: 10px;
+}
+
+.service h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 45px;
+}
+
+.uche>p:nth-child(2) {
+color: yellow;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* here is my font awsome size */
+
+.uche2{
+  font-size: 3opx;
+}
+
+
+/* dropbox starts here */
+
+.portfolio {
+  background-color: #2563eb;
+margin-top: -30px;
+}
+.portfolio-image img {
+  width: 98%;
+  height: 250px;
+}
+
+/* creating flex of the two images with the unique identifire */
+.portfolio-flex {
+display: flex;
+}
+
+.portfolio-section {
+  width: 90%;
+  padding: 0px 10px;
+}
+
+.portfolio-tittle{
+  background-color: black;
+  width: 98%;
+  height: 350px;
+  margin-top: -27px;
+  /* padding:35px */
+
+}
+
+.portfolio h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 35px;
+  color: white;
+} 
+
+.portfolio-tittle h2{
+padding: 40px 50px;
+font-size: 25px;
+color: yellow;
+}
+
+.portfolio-tittle p{
+
+  font-size: 20-px;
+  color: white;
+  padding: 0px 25px;
+  }
+
+
+
+
+/* portfolio button */
+.btn-portfolio{
+  margin: 40px;
+  
+
+}
+.btn-port{
+  background-color: #2563eb;
+  color: white;
+  padding: 20px 20px;
+  
+}
+
+/* fortfolio ends */
+
+
+
+
+
+
+/* here is refer a friend */
+
+
+.share-container {
+  background-color:#2e69e0;
+
+}
+
+
+.share-in{
+  background-color: #02080d;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.share h1 {
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  margin-left: 250px;
+}
+
+.flex-refere {
+  display: flex;
+}
+
+.share-inner {
+  background-color: rgb(76, 0, 255);
+  margin-bottom: 70px;
+  line-height: 80px;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+
+.refr a {
+  color: black;
+  padding-right: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.refr >arrow-g:hover {
+  transform: scale(1.2);
+}
+
+
+/* here is my last footer  */
+
+.new-footer{
+    color: white;
+
+    
+}
+.new-footer-inside{
+    background-color: #2563eb;
+    width: 100%;
+    
+    
+}
+
+.new-footer-flex{
+    display: flex;
+    background-color: #040c15;
+    margin-left: 10px;
+    margin-right: 25px;
+
+    
+
+   
+}
+
+.new-footer-item a {
+color: white;
+font-size: smaller;
+
+
+}
+
+.new-footer-item {
+    /* background-color: red; */
+    /* width: 200px; */
+    /* margin-left:50px; */
+    line-height: 30px;
+    /* margin: auto; */
+    padding-left: 70px;
+    
+
+    
+    
+}
+
+
+
+.new-footer-item p {
+    padding-left: 35px;
+        font-weight: bold;
+    color: yellow;
+}
+
+.mr {
+    font-size: 40px;
+    background-color: #7b7b7b;
+    
+}
+
+.new-footer-item a:hover{
+    text-decoration:underline;
+}
+
+
+/* here is my social icon */
+
+.last {
+    /* display: flex; */
+    background-color: #070b13;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    margin-left: 10px;
+    margin-right:25px ;
+}
+
+hr{
+  margin-right: 90%;
+}
+.sorounding {
+  background-color: #2563eb;
+  color: white;
+  
+}
+
+.last i a {
+  color: white;
+}
+
+.open-bracket {
+  font-size: 30px;
+  padding-left: 20px;
+
+}
+
+.boss {
+  color: white;
+  padding: 0px 10px;
+}
+
+
+.social-set :hover{
+  text-decoration: underline;
+}
+
+/* social ends here  */
+
+
+/* mobile responsive design here */
+
+
+/* here is for tablet design */
+@media screen and (max-width:1028px) {
+  .nav ul li a{
+padding: 0px 3px;
+  }
+  
+ 
+  
+
+  .btn{
+    padding: 5px 8px;
+
+  }
+
+  .login{
+    margin-left: -30px;
+  }
+
+
+
+
+}
+
+
+
+
+/* here is for mobile phone design */
+@media (min-width:390px) and (max-width:909px)
+{
+  .container {
+
+    flex-direction: column;
+    position: relative;
+    background-color: #040c15;
+  } 
+
+  /* here is my icon to display on the mobile */
+
+.span1 {
+display: inline-block;
+padding-right: 5px;
+color: yellow;
+}
+
+
+/* here is my menu icon code */
+.menu-bar1 {
+  display: block;
+  position: absolute;
+  top: 40%;
+  color: white;
+  right: 10%;
+  cursor: pointer;
+}
+
+
+.menu-bar1 i {
+font-size: 30px;
+}
+
+
+
+/* this is how to call e check list,
+in creating a check for a good set-up, use this formuler to make it display as you apply on the area needed,
+this can also be used in making lists, but  remember to dislay your check to non after setting up for nav */
+
+/* #check { */
+  /* display: block;
+  position: absolute; */
+  /* display: none;
+} */
+
+
+  .nav ul li  {
+    display: block;
+    padding: 10px 0px;
+    /* text-align: justify; */
+  }
+
+  .nav ul li{
+    margin-left: 40px;
+
+  }
+
+
+   
+  /* my logo design img */
+  .logo img {
+    position:absolute;
+    top: 10px;
+    right: 46%;
+  }
+
+ul { 
+background-color: blue;
+width: 80%;
+position: absolute;
+top:80%;
+height: 50vh;
+right: 8%;
+left: -100%;
+text-align: left;
+border-radius: 20px;
+/* to make it fade in and out in check nav, we use transition n time */
+transition: 5s;
+
+}
+
+
+/*  here is my login design */
+
+
+.login{
+  /* position: absolute
+  right:10%;
+  right: 20%; */
+  margin-top: 50px 0px;
+}
+
+/* my button here */
+.btn {
+  padding: 5px 8px;
+}
+
+/* this #check is used to make my nav disapear 
+or drop down when clicked on or i n other word ckecked */
+#check:checked ~ ul{
+  /* you can use display to non to make it desapear or use the div left or right -100% to get up and off screen */
+  /* display: none; this will make it disapear*/
+left:8%;
+
+/* this willmake it go left in slow motion after we have given it a -100% in ul and transituion 1.5s as the transition time , so it will appear back when checked orclicked  */
+
+}
+ 
+
+/* here is my tittle mobile design */
+
+.tittle {
+  width: 100%;
+  
+}
+
+.tittle h1{
+  font-size: 35px;
+}
+
+.tittle p {
+font-size: 20px;
+line-height: 1.4rem;
+}
+
+.img{
+  width: 100%;
+}
+
+  .service h1{
+    font-size: 25px;
+    padding: 10px 0px;
+  }
+
+  .service-main {
+    
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .uche2 {
+   font-size: 80px; 
+  }
+  
+
+.portfolio h1{
+padding: 20px;
+}
+
+.portfolio-flex{
+  display: block;
+  margin: auto;
+  /* padding: 0px 10px; */
+}
+
+.portfolio-section{
+  width: 100%;
+}
+
+.portfolio-tittle{
+  text-align: center;
+}
+.btn-port{
+  padding: 10px 20px;
+}
+
+/* my share */
+
+/* i wanted my container color to have full width so i extended byh zero margin */
+.share-in{
+  margin-left: 10px;
+  margin-right: 0px;
+
+}
+
+.share h1{
+  margin-left: 0px;
+  font-size: 21px;
+  padding: 5px;
+}
+
+.share-inner {
+  /* margin-bottom: 5px; */
+  line-height: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.refr a {
+  color: rgb(56, 7, 7);
+  padding-right: 0px;
+  font-size: 20px;
+  font-weight: 5px;
+  background-color: red;
+  
+}
+
+.refr >arrow-g:hover {
+  transform: scale(1.2);
+
+}
+
+/* share ends here */
+
+
+/* here is my new footer */
+
+
+/* i used margin right 0px to cover the right margin */
+.new-footer-flex{
+  margin-left: 10px;
+  margin-right: 0px;
+
+
+}
+
+
+.new-footer-item {
+  line-height: 15px;
+  padding-left: 0px;
+  
+}
+
+.new-footer-item ol a {
+  padding-left: 0px;
+
+}
+.new-footer-item p {
+  padding-left: 0px;
+  font-size: 15px;
+    
+}
+
+
+
+
+
+.new-footer-item ol{
+  padding-left: 0px;
+  margin: 2px;
+}
+
+
+.last {
+  /* display: flex; */
+  background-color: #070b13;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  margin-left: 10px;
+  margin-right:0px ;
+}
+
+hr{
+margin-right: 70%;
+}
+
+
+.open-bracket {
+font-size: 30px;
+padding-left: 20px;
+
+}
+
+.boss {
+color: white;
+padding: 0px 5px;
+}
+
+
+/* social ends here  */
+
+}
+
+
+
